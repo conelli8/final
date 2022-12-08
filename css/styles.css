@@ -1,0 +1,127 @@
+@charset "utf-8";
+body{
+    background-color: #eeeeee !important;
+    
+    
+}
+p {
+    font-family: "Massilia Light", sans-serif; 
+    color:#6A6A6A
+}
+h2 {
+    font-family: Massilia, Arial, sans-serif;  
+    color: #1a77d1;
+    
+}
+nav {
+    background-image: url(../images/marco-bianchetti-N3FCSG2J1Gc-unsplash-resize-for-header.jpg);
+    top: -5px;
+    margin-bottom: -58px;
+       
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 8%;
+    background-image: url(../images/marco-bianchetti-N3FCSG2J1Gc-unsplash-resize-for-header.jpg);
+    color: #FFFFFF;
+    font-family: "Massilia Light", sans-serif;
+}
+.navbar a {
+    color: white;
+}
+#top-section{
+    margin-top: -0.6%;
+    margin-bottom: -20px
+}
+#first-para{
+    padding-left: 40%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+    margin-bottom: 2%
+}
+#top-pic{
+    margin-bottom: -300px; 
+    margin-left: 280px;
+    
+}
+#top-header{
+    text-align: center;
+    padding-left: 20%;
+    color: #1a77d1;
+}
+/*Found this method to make the images side by side here https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
+.row {
+  display: flex;
+  
+}
+
+.column {
+  flex: 25%;
+  padding: 3%;
+}
+
+.thumbnail-text {
+    padding-left: 22%;    
+}
+.button-to-site{
+    background-color: #1a77d1;
+    text-align: center;
+}
+
+#bottom-section{
+    margin: 50px;
+    margin-bottom: -10px;
+}
+footer {
+	text-align: center;
+}
+/*Button taken from https://codepen.io/JavaScriptJunkie/pen/pPRooV */
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+
